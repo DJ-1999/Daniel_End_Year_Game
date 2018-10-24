@@ -10,13 +10,12 @@ public class SmashObject : MonoBehaviour
 
     private GameObject smashTarget = null;
 
-    public Button smashButton;
+ //   public Button smashButton;
     //public for partical
     public GameObject partecal;
 
     private void Start()
     {
-        smashButton.onClick.AddListener(DoSmash);
     }
 
 

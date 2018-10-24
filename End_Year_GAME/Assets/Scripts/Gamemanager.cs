@@ -13,14 +13,15 @@ public enum GameState
 public class Gamemanager : MonoBehaviour
 {
     public static GameState gameState;
-	// Use this for initialization
-	void Start ()
+    // Use this for initialization
+    void Start()
     {
         gameState = GameState.MainMenu;
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 }

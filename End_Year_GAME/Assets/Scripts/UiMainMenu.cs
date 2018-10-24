@@ -3,27 +3,30 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UiMainMenu : MonoBehaviour {
+public class UiMainMenu : MonoBehaviour
+{
     public Button play;
     public Button mute;
     public Button quit;
     public Animator cameraPlay;
+    /// <summary>
+    /// TODO: summaries
+    /// </summary>
     public AudioSource audioSource;
 
     // Use this for initialization
-    void Start ()
+    void Start()
     {
         play.onClick.AddListener(OnPlay);
         mute.onClick.AddListener(OnMute);
         quit.onClick.AddListener(OnQuit);
-        audioSource = GetComponent<AudioSource>();
     }
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
-		
-	}
+
+    }
 
     private void OnPlay()
     {
@@ -38,7 +41,7 @@ public class UiMainMenu : MonoBehaviour {
     private void OnMute()
     {
         //gaan die audio sorce volume ==0
-        audioSource.mute = false;
+        audioSource.mute = !audioSource.mute;
     }
     private void OnQuit()
     {
