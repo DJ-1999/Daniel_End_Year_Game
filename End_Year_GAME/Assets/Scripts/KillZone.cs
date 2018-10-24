@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class KillZone : MonoBehaviour
 {
-
-
     private void OnTriggerEnter(Collider other)
     {
+        Smashable smashableObject = other.GetComponent<Smashable>();
+
+        if (smashableObject != null)
+        {
+            if (smashableObject.tipe == "Nut")
+            {
+                ScoreManager.instance.MinisScore();
+            }
+        }
         Destroy(other.gameObject);
     }
-
-    void OnCollisionEnter(Collision col)
-    {
-        if (col.gameObject.name == "Banana")
-        {
-            Destroy(col.gameObject);
-        }
-        
-    
-
-    }
-
 }
