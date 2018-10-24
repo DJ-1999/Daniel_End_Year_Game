@@ -8,7 +8,7 @@ public class UiMainMenu : MonoBehaviour {
     public Button mute;
     public Button quit;
     public Animator cameraPlay;
-   
+    public AudioSource audioSource;
 
     // Use this for initialization
     void Start ()
@@ -16,7 +16,8 @@ public class UiMainMenu : MonoBehaviour {
         play.onClick.AddListener(OnPlay);
         mute.onClick.AddListener(OnMute);
         quit.onClick.AddListener(OnQuit);
-	}
+        audioSource = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update ()
@@ -37,6 +38,7 @@ public class UiMainMenu : MonoBehaviour {
     private void OnMute()
     {
         //gaan die audio sorce volume ==0
+        audioSource.mute = false;
     }
     private void OnQuit()
     {
