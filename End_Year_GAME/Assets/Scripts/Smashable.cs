@@ -12,9 +12,7 @@ public enum ObjectState
 
 public class Smashable : MonoBehaviour
 {
-
 	public ObjectState ObjectState = ObjectState.Ignore;
 	public int score = 1;
-    public string tipe = "Undefind";
-
+	public string tipe = "Undefind";
 }
