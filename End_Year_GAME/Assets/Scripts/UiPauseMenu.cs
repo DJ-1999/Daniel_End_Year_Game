@@ -15,7 +15,7 @@ public class UiPauseMenu : MonoBehaviour
     void Start ()
     {
         play.onClick.AddListener(OnPlay);
-        mute.onClick.AddListener(OnMute);
+      //  mute.onClick.AddListener(OnMute);
         quit.onClick.AddListener(OnQuit);
         audioSource = GetComponent<AudioSource>();
     }

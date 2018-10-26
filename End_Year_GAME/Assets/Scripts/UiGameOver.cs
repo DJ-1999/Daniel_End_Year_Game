@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class UiGameOver : MonoBehaviour
 {
-    public Button play;
+	public static UiGameOver instance;
+	public Button play;
     public Button mute;
     public Button quit;
     public bool isGameOver = false;
@@ -13,31 +14,41 @@ public class UiGameOver : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        play.onClick.AddListener(OnPlay);
-
-    }
+		if (instance == null)
+		{
+			instance = this;
+		}
+		else
+		{
+			Destroy(gameObject);
+		}
+		play.onClick.AddListener(OnPlay);
+		quit.onClick.AddListener(OnQuit);
+	}
 
     // Update is called once per frame
     void Update()
     {
         if (ScoreManager.instance.score < 0)
         {
+				print("lol");
             if (isGameOver)
             {
                 isGameOver = false;
                 GetComponent<CanvasGroup>().alpha = 1;
                 GetComponent<CanvasGroup>().interactable = true;
                 GetComponent<CanvasGroup>().blocksRaycasts = true;
-
-                Gamemanager.gameState = GameState.GameOver;
+				Gamemanager.gameState = GameState.GameOver;
+				ScoreManager.instance.score = 0;
             }
             else
             {
                 isGameOver = true;
                 GetComponent<CanvasGroup>().alpha = 0;
                 GetComponent<CanvasGroup>().interactable = false;
-                GetComponent<CanvasGroup>().blocksRaycasts = false;
-                Gamemanager.gameState = GameState.Play;
+               GetComponent<CanvasGroup>().blocksRaycasts = false;
+               Gamemanager.gameState = GameState.Play;
+				print("wow");
             }
 
 
@@ -48,9 +59,9 @@ public class UiGameOver : MonoBehaviour
         GetComponent<CanvasGroup>().alpha = 0;
         GetComponent<CanvasGroup>().interactable = false;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
+		Gamemanager.gameState = GameState.Play;
 
-
-    }
+	}
     private void OnMute()
     {
         //gaan die audio sorce volume ==0

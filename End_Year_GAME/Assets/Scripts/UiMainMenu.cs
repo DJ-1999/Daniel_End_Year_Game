@@ -18,7 +18,7 @@ public class UiMainMenu : MonoBehaviour
     void Start()
     {
         play.onClick.AddListener(OnPlay);
-        mute.onClick.AddListener(OnMute);
+      //  mute.onClick.AddListener(OnMute);
         quit.onClick.AddListener(OnQuit);
     }
 
