@@ -2751,7 +2751,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 94a537c1fe0c41140bd83386d979799b,
     type: 2}
-  m_audioClip: {fileID: 8300000, guid: 66b66c8ac731de149a2b047209cf2a99, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5a6f2cdd00116c345baf52bbbe90e85d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7765,7 +7765,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30debe39bc3f4f84d8e1f116dcc9158c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 30debe39bc3f4f84d8e1f116dcc9158c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8385,7 +8385,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 30debe39bc3f4f84d8e1f116dcc9158c, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 30debe39bc3f4f84d8e1f116dcc9158c, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -8444,8 +8444,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1059263168}
-  - {fileID: 2119661099}
   - {fileID: 768667304}
+  - {fileID: 2119661099}
   m_Father: {fileID: 684182175}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
