@@ -177,7 +177,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300002, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -185,7 +185,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &15059114
@@ -252,15 +252,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300010, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.26, y: 1.4999999}
+  m_Size: {x: 1.27, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &26444938
@@ -722,7 +722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 96173217}
-  buttenPress: 106
+  buttenPress: 104
 --- !u!95 &96173217 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -987,7 +987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 304
+  key: 97
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &161352670
@@ -1195,15 +1195,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300016, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.26, y: 1.4999999}
+  m_Size: {x: 1.26, y: 1.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &223851870
@@ -1484,7 +1484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 266454563}
-  buttenPress: 108
+  buttenPress: 107
 --- !u!95 &266454563 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -1631,7 +1631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 105
+  key: 106
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &288712854
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 106
+  key: 104
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!1001 &422339390
@@ -2238,7 +2238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 119
+  key: 100
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &481638588
@@ -3074,15 +3074,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300004, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300008, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.26, y: 1.4999999}
+  m_Size: {x: 1.27, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &659011811
@@ -3630,7 +3630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 768667306}
-  buttenPress: 97
+  buttenPress: 115
 --- !u!95 &768667306 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -4091,7 +4091,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 97
+  key: 115
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &869633221
@@ -4128,7 +4128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 876587961}
-  buttenPress: 105
+  buttenPress: 106
 --- !u!95 &876587961 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -4602,7 +4602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 985760081}
-  buttenPress: 100
+  buttenPress: 102
 --- !u!95 &985760081 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -5114,7 +5114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 1059263170}
-  buttenPress: 304
+  buttenPress: 97
 --- !u!95 &1059263170 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -5321,15 +5321,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300010, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.26, y: 1.4999999}
+  m_Size: {x: 1.28, y: 1.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1139236611
@@ -5616,7 +5616,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300006, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5624,7 +5624,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1242956476
@@ -5889,7 +5889,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 1314663152}
-  buttenPress: 303
+  buttenPress: 108
 --- !u!95 &1314663152 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
@@ -6394,7 +6394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 303
+  key: 108
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &1419995074
@@ -6707,15 +6707,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300006, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300014, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.26, y: 1.4999999}
+  m_Size: {x: 1.28, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1512177116
@@ -6841,7 +6841,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300002, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300004, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -6849,7 +6849,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1518203467
@@ -7417,7 +7417,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1688845673
@@ -7616,7 +7616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 100
+  key: 102
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!1001 &1740311953
@@ -8197,7 +8197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 683bc7538e8a8f9429cfe558748aad41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  key: 108
+  key: 107
   smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &1976254600
@@ -8901,7 +8901,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ani: {fileID: 2119661101}
-  buttenPress: 119
+  buttenPress: 100
 --- !u!95 &2119661101 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 9500000, guid: 30debe39bc3f4f84d8e1f116dcc9158c,
