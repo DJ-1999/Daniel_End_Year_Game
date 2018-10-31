@@ -8,14 +8,14 @@ public class KillZone : MonoBehaviour
     {
        Smashable smashableObject = other.GetComponent<Smashable>();
 
-       // if (smashableObject != null)
-        {
+
+        
             if (smashableObject.tipe == "Nut")
             {
 				
                 ScoreManager.instance.MinisScore();
             }
-        }
+        
         Destroy(other.gameObject);
     }
 }

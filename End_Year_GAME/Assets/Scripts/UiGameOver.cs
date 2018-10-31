@@ -12,7 +12,6 @@ public class UiGameOver : MonoBehaviour
 	public Button quit;
 	public bool isGameOver = false;
 
-	// Use this for initialization
 	void Start()
 	{
 		if (instance == null)
@@ -28,7 +27,7 @@ public class UiGameOver : MonoBehaviour
 		HideGameOver();
 	}
 
-		public void ShowGameOver()
+	public void ShowGameOver()
 	{
 		isGameOver = false;
 		GetComponent<CanvasGroup>().alpha = 1;
@@ -57,12 +56,12 @@ public class UiGameOver : MonoBehaviour
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
 	}
+
 	private void OnMute()
 	{
-		//gaan die audio sorce volume ==0
-		//  audioSource.mute = false;
-
+		
 	}
+
 	private void OnQuit()
 	{
 		Application.Quit();

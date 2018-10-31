@@ -11,16 +11,15 @@ public class UiPauseMenu : MonoBehaviour
     public bool isPaused = false;
     public AudioSource audioSource;
     
-    // Use this for initialization
+    
     void Start ()
     {
         play.onClick.AddListener(OnPlay);
-      //  mute.onClick.AddListener(OnMute);
+      
         quit.onClick.AddListener(OnQuit);
         audioSource = GetComponent<AudioSource>();
     }
 	
-	// Update is called once per frame
 	void Update ()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -73,8 +72,7 @@ public class UiPauseMenu : MonoBehaviour
 	}
     private void OnMute()
     {
-        //gaan die audio sorce volume ==0
-        audioSource.mute = !audioSource.mute;
+        
 
     }
     private void OnQuit()

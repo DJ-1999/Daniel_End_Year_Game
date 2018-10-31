@@ -4,15 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
-{
-	//maak singeltin
-	public static ScoreManager instance;
-	//keep track of score
+{ 
+	// Keeps track of score
 	public int score = 0;
 
+	// Singeltin
+	public static ScoreManager instance;
+	
 	public Text countText;
 
-	// Use this for initialization
 	void Start()
 	{
 		if (instance == null)
@@ -27,26 +27,24 @@ public class ScoreManager : MonoBehaviour
 		setCountText();
 	}
 
-	// Update is called once per frame
-	void Update()
-	{
-
-	}
-	// add score
+	
+	// Adds a point
 	public void AddScore()
 	{
 		score++;
 		setCountText();
 	}
 
+	// Takes a point away
 	public void MinisScore()
 	{
 		score--;
 		setCountText();
 	}
 
+	// Sets the score count display
 	public void setCountText()
-	{
+	{    //Sets game over text if score lower than zero
 		if (score < 0)
 		{
 			countText.text = "GAME OVER";
