@@ -25,37 +25,28 @@ public class UiGameOver : MonoBehaviour
 		}
 		play.onClick.AddListener(OnPlay);
 		quit.onClick.AddListener(OnQuit);
+		HideGameOver();
 	}
 
-	// Update is called once per frame
-	void Update()
+		public void ShowGameOver()
 	{
-		if (ScoreManager.instance.score < 0 && SmashObject.smashTarget != null)
-		{
-			if (SmashObject.smashTarget.GetComponent<Smashable>().tipe == "Banana")
-			{
-				print("lol");
-				if (isGameOver)
-				{
-					isGameOver = false;
-					GetComponent<CanvasGroup>().alpha = 1;
-					GetComponent<CanvasGroup>().interactable = true;
-					GetComponent<CanvasGroup>().blocksRaycasts = true;
-					Gamemanager.gameState = GameState.GameOver;
-					ScoreManager.instance.score = 0;
-				}
-				else
-				{
-					isGameOver = true;
-					GetComponent<CanvasGroup>().alpha = 0;
-					GetComponent<CanvasGroup>().interactable = false;
-					GetComponent<CanvasGroup>().blocksRaycasts = false;
-					Gamemanager.gameState = GameState.Play;
-					print("wow");
-				}
-			}
-		}
+		isGameOver = false;
+		GetComponent<CanvasGroup>().alpha = 1;
+		GetComponent<CanvasGroup>().interactable = true;
+		GetComponent<CanvasGroup>().blocksRaycasts = true;
+		Gamemanager.gameState = GameState.GameOver;
+		ScoreManager.instance.score = 0;
 	}
+
+	public void HideGameOver()
+	{
+		isGameOver = true;
+		GetComponent<CanvasGroup>().alpha = 0;
+		GetComponent<CanvasGroup>().interactable = false;
+		GetComponent<CanvasGroup>().blocksRaycasts = false;
+		Gamemanager.gameState = GameState.Play;
+	}
+
 	private void OnPlay()
 	{
 		GetComponent<CanvasGroup>().alpha = 0;

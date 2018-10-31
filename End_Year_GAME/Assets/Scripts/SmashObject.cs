@@ -8,7 +8,7 @@ public class SmashObject : MonoBehaviour
 {
 	public KeyCode key;
 
-	public static GameObject smashTarget = null;
+	public GameObject smashTarget = null;
 
 	//   public Button smashButton;
 	//public for partical
@@ -50,7 +50,9 @@ public class SmashObject : MonoBehaviour
 			}
 			if (smashTarget.GetComponent<Smashable>().tipe == "Banana")
 			{
-				ScoreManager.instance.MinisScore();
+				//ScoreManager.instance.MinisScore();
+				Gamemanager.gameState = GameState.GameOver;
+				UiGameOver.instance.ShowGameOver();
 			}
 			//insantiat the partiacl at smash taarget . position
 			Instantiate(partecal, transform.position, Quaternion.identity);

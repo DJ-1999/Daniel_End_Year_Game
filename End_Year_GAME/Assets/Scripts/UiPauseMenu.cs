@@ -52,9 +52,25 @@ public class UiPauseMenu : MonoBehaviour
         GetComponent<CanvasGroup>().alpha = 0;
         GetComponent<CanvasGroup>().interactable = false;
         GetComponent<CanvasGroup>().blocksRaycasts = false;
-        
 
-    }
+		if (isPaused)
+		{
+			isPaused = false;
+			GetComponent<CanvasGroup>().alpha = 0;
+			GetComponent<CanvasGroup>().interactable = false;
+			GetComponent<CanvasGroup>().blocksRaycasts = false;
+			Gamemanager.gameState = GameState.Play;
+		}
+		else
+		{
+			isPaused = true;
+			GetComponent<CanvasGroup>().alpha = 1;
+			GetComponent<CanvasGroup>().interactable = true;
+			GetComponent<CanvasGroup>().blocksRaycasts = true;
+			Gamemanager.gameState = GameState.Pause;
+		}
+
+	}
     private void OnMute()
     {
         //gaan die audio sorce volume ==0

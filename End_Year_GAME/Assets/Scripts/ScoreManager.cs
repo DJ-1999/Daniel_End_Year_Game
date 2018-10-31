@@ -50,6 +50,8 @@ public class ScoreManager : MonoBehaviour
 		if (score < 0)
 		{
 			countText.text = "GAME OVER";
+			Gamemanager.gameState = GameState.GameOver;
+			UiGameOver.instance.ShowGameOver();
 			return;
 		}
 		countText.text = "Score: " + score.ToString();
