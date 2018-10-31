@@ -185,7 +185,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &15059114
@@ -260,7 +260,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1001 &26444938
@@ -988,6 +988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 304
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &161352670
 BoxCollider:
@@ -1202,7 +1203,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &223851870
@@ -1631,6 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 105
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &288712854
 BoxCollider:
@@ -1919,6 +1921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 106
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!1001 &422339390
 Prefab:
@@ -2236,6 +2239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 119
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &481638588
 BoxCollider:
@@ -3078,7 +3082,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &659011811
@@ -4088,6 +4092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 97
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &869633221
 BoxCollider:
@@ -5324,7 +5329,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1139236611
@@ -5619,7 +5624,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1242956476
@@ -6390,6 +6395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 303
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &1419995074
 BoxCollider:
@@ -6709,7 +6715,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1512177116
@@ -6843,7 +6849,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1518203467
@@ -7403,7 +7409,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300014, guid: 013e111067304fc409173b471f7a8132, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 013e111067304fc409173b471f7a8132, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7411,7 +7417,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 1.4999999}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1688845673
@@ -7555,6 +7561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 32
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!1 &1735354096
 GameObject:
@@ -7610,6 +7617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 100
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!1001 &1740311953
 Prefab:
@@ -8190,6 +8198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   key: 108
+  smashTarget: {fileID: 0}
   partecal: {fileID: 1609799865780028, guid: 041f5b57faad6cc429c5f67473a9a5fc, type: 2}
 --- !u!65 &1976254600
 BoxCollider:
